@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html> 
+    <head>
+        <meta charset="utf8">
+        <title>Contacto-Vet</title>
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+      <header>
+        <nav>
+          <h1>
+            <a href="../index.html">
+              <img 
+              src="../assets/imagenes/logocompany.jpg" 
+              alt="logo_company" 
+              class="logo_company" />
+            </a>
+          </h1>
+          <div class="menu">
+            <a class="menu_item" href="../index.html">Home</a></li>
+            <a class="menu_item" href="servicios.html">Servicios</a></li>
+            <a class="menu_item" href="productos.html">Productos</a></li>
+            <a class="menu_item" href="acerca.html">Acerca de</a></li>
+            <a class="menu_item" href="contacto.html">Contacto</a></li>
+          </div>
+        </nav>     
+      </header>
+
+      <section class="banner">
+        <img class="banner__imagen" src="../assets/imagenes/bannervet.jpg" alt="imagenbanner">
+        <h2 class="banner__titulo">Cuidando la salud de tus animales.</h2>
+      </section>
+  
+        <main class="contactanos__principal">
+          <h2>Contactanos</h2>
+            <form ><!--creacion de formulario-->
+                <label for="nombreapellido">Nombre y Apellido</label><!--creacion de una etiqueta se relaciona el id del label con el label con un for-->
+                <input type="text" id="nombreapellido"class="input-padron" required> <!--crea una caja de texo para introd datos tipo texto, el campo required nos ayuda para qu e los datos sean obligatorios-->
+            
+                <label for="correo electronico">Correo Electronico</label>
+                <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com" > 
+            
+                <label for="telefono">Telefono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(xx)xxxxxxxx">
+                
+                <label for= "mensaje">Mensaje</label>
+                <textarea cols=70 rows=10 id="mensaje" class="input-padron"required ></textarea>
+
+                <fieldset><!--Para agrupar los elementos de un mismo grupo-->
+
+                    <legend>Como le gustaria que lo contactemos?</legend>
+                
+                    <label for="radio-email"><input type="radio"  name="contacto" value="email"id="radio-email">Email</label><!--el radio nos ayuda a seleccionar -->
+                    
+                    
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono"id="radio-telefono">Telefono</label>
+                    
+                    
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp"id="radio-whastapp" checked>Whatsapp</label>
+                    
+                </fieldset>
+                
+                <fieldset>
+                    <legend>En que horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Manana</option><!--Permite crear una serie de opciones en menu-->
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+                
+                <label class="checkbox"> <input type="checkbox"checked>Le gustaria recibir novedades de la Veterinaria?</label><!--se creo una clase para que el usuario seleccionara  y un checked para que aparezca seleccionado por default-->
+                
+                <input type="submit" value="Enviar formulario" class="enviar">
+            </form>
+
+            <table> <!--creando una tabla--> 
+                <thead><!--encabezado de la tabla-->
+                    <tr><!--creando una fila -->
+                        <th>Dia</th><!--creando una columna-->
+                        <th>Horario</th>    
+                    </tr>
+                </thead>
+
+                <tbody><!--cuerpo de la tabla-->
+                    <tr>
+                        <td>Lunes</td>
+                        <td>08h-20h</td>    
+                    </tr> 
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>08h-20h</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>08h-20h</td>    
+                    </tr>    
+                </tbody>  
+            </table>
+        </main>
+
+        <footer> <!--pie de pagina-->
+          <div class="pieDePagina">
+            <div class="sobre">
+              <h2 class="titulo">Sobre Nosotros</h2>
+              <p class="sobre-item">Historia</p>
+              <p class="sobre-item">Terminos y condiciones</p>
+              <p class="sobre-item">Politicas de privacidad</p>
+            </div>
+            
+            </div class ="imagenLogoGerman" >
+              <img  class="iniciales" src="../assets/imagenes/gmcini.png" alt="german inicales">
+            </div>
+      
+            <div>
+              <div class="contacto">
+                  <h2 class="titulo">Siguenos</h2>
+                    <p class="parrafo-contacto">Siguenos en nuestras redes</p>  
+              </div>
+      
+              <div class="footer__redes__sociales">
+                  <a href="https://www.instagram.com/"><img class="footer__redes__sociales__instagram" src="../assets/imagenes/Instagram-footer.png" alt="icono instagram"></a>
+                  <a href="https://www.facebook.com/"><img class="footer__redes__sociales__facebook" src="../assets/imagenes/Facebook-footer.png" alt="icono facebook"></a>
+                  <a href="https://www.twitter.com/"><img class="footer__redes__sociales__twitter" src="../assets/imagenes/Twitter-footer.png" alt="icono facebook"></a>
+                  <a href="https://www.whatsapp.com/"><img class="footer__redes__sociales__whatsapp" src="../assets/imagenes/WhatsApp-footer.png" alt="icono whatsapp"></a>
+              </div>
+            </div>
+          </div>
+      </footer>
+    </body>
+</html>

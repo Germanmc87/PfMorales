@@ -1,0 +1,10 @@
+.productos {
+  padding: 3em 0;
+  background: linear-gradient(white,  #eaae00)
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem 0 0 5rem;
+}
