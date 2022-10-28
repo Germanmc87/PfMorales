@@ -260,10 +260,9 @@ footer p {
 
 /*inicia pagina contacto*/
 
-/*RESPONSIVE CONTACTO*/
+/*RESPONSIVE CONTACTO* pagina/
 
-@media  only screen and (min-width: 860px){clear
-  
+@media  only screen and (min-width: 860px){
   .contactanos__principal { 
   background: linear-gradient(#FEFEFE,  #eaae00)
   }
