@@ -410,7 +410,9 @@ td,th{
 /*inicia pagina acerca de*/
 
 /*RESPONSIVE ACERCA DE*/ 
-@media only screen and (min-width:900px) {
+
+@media only screen and (min-width :860px){
+  
   .titulo_acerca_de{
     text-align: center;
     font-size: 2em;
@@ -437,10 +439,10 @@ td,th{
     background: linear-gradient(#FEFEFE,  #eaae00)
   }
   
-  .mapa_contenido { 
+  /*.mapa_contenido { 
   width:auto;
-  margin: 0 auto auto 350px;
-  }
+  margin: 0 auto auto 500px;
+  }*/
   
 }
 
@@ -471,8 +473,8 @@ td,th{
 }
 
 .mapa_contenido { 
-width:auto;
-/*margin: 0 auto auto 350px;*/
+  width:auto;
+  margin: 0 auto auto 500px;
 }
 
 /*inicia productos*/
