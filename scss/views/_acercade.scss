@@ -1,0 +1,71 @@
+/*inicia pagina acerca de*/
+
+/*RESPONSIVE ACERCA DE*/ 
+
+@media only screen and (min-width :860px){
+
+  titulo_acerca_de{
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  
+  .principal_acerca_de p{
+    font-size: 20px;
+    margin: 0 0 1em;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .mapa p{
+    margin: 0 0 1em;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE,  #eaae00)
+  }
+  
+  /*.mapa_contenido { 
+  width:auto;
+  margin: 0 auto auto 500px;
+  }*/
+  
+}
+
+.titulo_acerca_de{
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.principal_acerca_de p{
+  font-size: 20px;
+  margin: 0 0 1em;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.mapa p{
+  margin: 2em 0 1em;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.mapa{
+  padding: 3em 0;
+  background: linear-gradient(#FEFEFE,  #eaae00)
+}
+
+.mapa_contenido { 
+  width:auto;
+  margin: 0 auto auto 500px;
+}

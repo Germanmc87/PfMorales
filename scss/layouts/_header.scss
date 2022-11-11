@@ -1,0 +1,50 @@
+
+header{
+  background-color: #eaae00 ;
+  height: 100px;
+}
+
+/*main{
+  width: 100%;
+  margin-top: 300px; 
+}*/
+
+nav {
+  background-color:  #eaae00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  position: fixed;
+}
+
+
+.logo_company {
+  height: 75px;
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_item {
+  color: $colormenu;
+  text-decoration: none;
+  margin-right: 60px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.menu_item:hover {
+  text-decoration: underline;
+  font-size: 29px;
+  transition: 0.5s;
+}

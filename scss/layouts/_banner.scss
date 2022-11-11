@@ -1,0 +1,25 @@
+/*banner*/
+
+img + h2 {
+  font-family: sofia, cursive;
+}
+
+.banner__imagen {
+  width: 100%;
+  height: calc(68vh);
+}
+
+.banner__titulo {
+  color:   $textocolor;  /*#eaae008;*/
+  text-shadow:2px 2px $fondoprincipal;
+  font-weight:bold;
+  font-size: 4.0625rem;
+  position: absolute;
+  margin-top: 65px;
+  left: 50%;
+  text-align: center;
+  top: 69%;
+  /*text-shadow: 0 4px 4px rgba(0, 0, 0,0, 0.75);*/
+  width: 100%;
+  transform: translate(-50%, -50%);
+}

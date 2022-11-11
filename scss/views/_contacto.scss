@@ -1,0 +1,149 @@
+/*inicia pagina contacto*/
+
+/*RESPONSIVE CONTACTO* pagina*/
+
+@media  only screen and (min-width: 860px){
+  .contactanos__principal { 
+  background: linear-gradient(#FEFEFE,  #eaae00)
+  }
+
+.contactanos__principal{
+  background: linear-gradient(#FEFEFE,  #eaae00)
+}
+
+h2{
+  font-size: 4em;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+form{
+  margin: 130px 0 0 300px;
+  display: flex;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.input-padron{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox{
+  margin:20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background: orange;
+  border:none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor:pointer;
+}
+
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+table{
+  margin:40px 40px 10px 400px;
+  background-color: #ffc400;
+  background: #fdfdfd;
+  text-align: center;
+}
+
+thead{
+  background: #555555;
+  color:white;
+  font-weight: bold;
+}
+
+td,th{
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
+
+}
+
+.contactanos__principal{
+  background: linear-gradient(#FEFEFE,  #eaae00)
+}
+
+h2{
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+form{
+  margin: 100px 0 0 400px;
+  display: block 
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padron{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.checkbox{
+  margin:20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color:white;
+  background: orange;
+  border:none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor:pointer;
+}
+
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+table{
+  margin:40px 40px 10px 570px;
+  background-color: #ffc400;
+  background: #fdfdfd;
+  text-align: center;
+}
+
+thead{
+  background: #555555;
+  color:white;
+  font-weight: bold;
+}
+
+td,th{
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
