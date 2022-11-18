@@ -9,7 +9,9 @@ header{
   margin-top: 300px; 
 }*/
 
-nav {
+
+
+.navbar .navbar-expand-lg .navbar-light .fondonav {
   background-color:  #eaae00;
   display: flex;
   justify-content: space-around;
@@ -20,7 +22,7 @@ nav {
 }
 
 
-.logo_company {
+.navbar-brand img{
   height: 75px;
   width: 100px;
   margin-top: 10px;
@@ -28,22 +30,22 @@ nav {
   border-radius: 10px;
 }
 
-.menu {
+.menu{
   display: flex;
   align-items: center;
   justify-content: center;
+  color: red;
 }
 
-.menu_item {
-  color: $colormenu;
+.menuitem{
+  color:$colormenu;
   text-decoration: none;
   margin-right: 60px;
   font-size: 25px;
   font-weight: bold;
 }
 
-
-.menu_item:hover {
+.paginas:hover {
   text-decoration: underline;
   font-size: 29px;
   transition: 0.5s;

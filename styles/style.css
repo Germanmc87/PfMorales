@@ -7,7 +7,7 @@ header {
   width: 100%;
   margin-top: 300px; 
 }*/
-nav {
+.navbar .navbar-expand-lg .navbar-light .fondonav {
   background-color: #eaae00;
   display: flex;
   justify-content: space-around;
@@ -16,7 +16,7 @@ nav {
   width: 100%;
   position: fixed; }
 
-.logo_company {
+.navbar-brand img {
   height: 75px;
   width: 100px;
   margin-top: 10px;
@@ -26,16 +26,17 @@ nav {
 .menu {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  color: red; }
 
-.menu_item {
+.menuitem {
   color: #473a3a;
   text-decoration: none;
   margin-right: 60px;
   font-size: 25px;
   font-weight: bold; }
 
-.menu_item:hover {
+.paginas:hover {
   text-decoration: underline;
   font-size: 29px;
   transition: 0.5s; }
@@ -64,6 +65,46 @@ img + h2 {
   transform: translate(-50%, -50%); }
 
 /*seccion1*/
+@media only screen and (min-width: 860px) {
+  .section-uno {
+    background-color: #ffc400;
+    display: flex;
+    padding: 130px 0px;
+    justify-content: center; }
+  .section-contenido {
+    width: auto; }
+  .texto-section {
+    color: #ffffff; }
+    .texto-section .texto-titulo {
+      font-size: 65px;
+      /*margin-top: 100px;*/
+      margin-bottom: 30px;
+      font-weight: bold; }
+  .texto-parrafo {
+    font-size: 30px;
+    margin-bottom: 70px; }
+  .button-section1 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bolder; }
+  .button-section1 .button-1 {
+    background-color: #00bfcb;
+    /*padding: 19px 30px 19px 30px;*/ }
+  .button-section1 .button-2 {
+    border: #ffffff 3px solid;
+    /*padding: 16px 30px 16px 30px;*/ }
+  .button-section1 a:hover {
+    font-size: 22px;
+    transition: 0.9s; }
+  .imagen-section-1 {
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 10px; } }
+
 .section-uno {
   background-color: #ffc400;
   display: flex;
