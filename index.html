@@ -10,48 +10,33 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <meta name="Veterinaria Guerrero" content="Tenemos los mejores precios en productos veterinarios"> 
   <meta name="keywords" content="Veterinaria-guereero, veterinario, accesorios, mascotas, animales" >
+  
   <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/style.css">
+  
   </head>
 
   <body>
     <header>
-      <!--<nav>
-        <h1>
-          <a href="index.html">
-            <img 
-            src="assets/imagenes/logocompany.jpg" 
-            alt="logo_company" 
-            class="logo_company" />
-          </a>
-        </h1>
-        
-        <div class="menu">
-          
-          <a class="menu_item" href="index.html">Home</a></li>
-          <a class="menu_item" href="paginas/servicios.html">Servicios</a></li>
-          <a class="menu_item" href="paginas/productos.html">Productos</a></li>
-          <a class="menu_item" href="paginas/productos.html">Acerca de</a></li>
-          <a class="menu_item" href="paginas/acerca.html">Contacto</a></li>  
-        </div>
-      </nav> -->
-      <div class="fondonav " >
-        <nav class="navbar navbar-expand-lg ">
+      <div class="fondonav">
+        <nav  class="navbar navbar-light" style="background-color: #eaae00;">
           <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img src="assets/imagenes/logocompany.jpg" alt="logocompany"></a>
-            <button class="navbar-toggler lineaburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon "></span>
+            <a class="navbar-brand" href="index.html">
+              <img  class="logo_company" src="assets/imagenes/logocompany.jpg" alt="" width="70" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 menuitem">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item paginas" >
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item paginas">
-                  <a class="nav-link" href="paginas/servicios.html">Servicios</a>
-                </li>
-                <li class="nav-item paginas">
-                  <a class="nav-link" href="paginas/productos.html">Productos</a>
+                  <a class="nav-link" aria-current="page" href="paginas/servicios.html">Servicios</a>
+                </li><li class="nav-item paginas">
+                  <a class="nav-link" aria-current="page" href="paginas/productos.html">Productos</a>
                 </li>
                 <li class="nav-item paginas">
                   <a class="nav-link" href="paginas/acerca.html">Acerca de</a>
@@ -61,18 +46,17 @@
                 </li>
             </div>
           </div>
-        </nav>    
+        </nav>
       </div>
-      
     </header>
 
     <section class="banner">
-      <img class="banner__imagen" src="assets/imagenes/banneranimals.jpg"imagenbanner">
+      <img class="banner__imagen" src="assets/imagenes/banneranimals.jpg"imagenbanner>
       <h2 class="banner__titulo">Cuidando la salud de tus animales.</h2>
     </section>
 
     <main>
-      <section class="section-uno">
+      <section class="section-1">
         <div class="section-contenido">
           <h2 class="texto-section texto-titulo">
           Quiero ser atendio por un veterinario
@@ -84,16 +68,19 @@
             <a href="paginas/servicios.html" class="button-2">Nuestro servicios</a>
           </div>
         </div>
-        <img
+
+        <div class="imagen-home" >
+          <img
           class="imagen-section-1"
           src="assets/imagenes/homeseccion1.jpg"
           alt="veterinaria_perro"
         />
-      </section>
+        </div>
+    </section>
     </main>
 
     <footer>
-      <div class="pieDePagina">
+      <div>
         <div class="sobre">
           <h2 class="titulo">Sobre Nosotros</h2>
           <p class="sobre-item">Historia</p>
@@ -101,22 +88,24 @@
           <p class="sobre-item">Politicas de privacidad</p>
         </div>
       </div>
+        
         <div class ="imagenLogoGerman" >
           <img  class="iniciales" src="assets/imagenes/gmcini.png" alt="german inicales">
         </div>
-  
-        <div>
-          <div class="contacto">
-              <h2 class="titulo">Siguenos</h2>
-                <p class="parrafo-contacto">Siguenos en nuestras redes</p>  
-          </div>
-          <div class="footer__redes__sociales">
-              <a href="https://www.instagram.com/"><img class="footer__redes__sociales__instagram" src="assets/imagenes/Instagram-footer.png" alt="icono instagram"></a>
-              <a href="https://www.facebook.com/"><img class="footer__redes__sociales__facebook" src="assets/imagenes/Facebook-footer.png" alt="icono facebook"></a>
-              <a href="https://www.twitter.com/"><img class="footer__redes__sociales__twitter" src="assets/imagenes/Twitter-footer.png" alt="icono facebook"></a>
-              <a href="https://www.whatsapp.com/"><img class="footer__redes__sociales__whatsapp" src="assets/imagenes/WhatsApp-footer.png" alt="icono whatsapp"></a>
-          </div>
+    
+      <div>
+        <div class="contacto">
+          <h2 class="titulo">Siguenos</h2>
+          <p class="parrafo-contacto">Siguenos en nuestras redes</p>  
         </div>
+  
+        <div class="footer__redes__sociales">
+          <a href="https://www.instagram.com/"><img class="footer__redes__sociales__instagram" src="assets/imagenes/Instagram-footer.png" alt="icono instagram"></a>
+          <a href="https://www.facebook.com/"><img class="footer__redes__sociales__facebook" src="assets/imagenes/Facebook-footer.png" alt="icono facebook"></a>
+          <a href="https://www.twitter.com/"><img class="footer__redes__sociales__twitter" src="assets/imagenes/Twitter-footer.png" alt="icono facebook"></a>
+          <a href="https://www.whatsapp.com/"><img class="footer__redes__sociales__whatsapp" src="assets/imagenes/WhatsApp-footer.png" alt="icono whatsapp"></a>
+        </div>
+      </div>
     </footer> 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>

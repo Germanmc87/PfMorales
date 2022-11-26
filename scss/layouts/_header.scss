@@ -1,43 +1,21 @@
 
-header{
-  background-color: #eaae00 ;
+.fondonav{
+  background-color: $fondoprincipal ;
   height: 100px;
-}
-
-/*main{
-  width: 100%;
-  margin-top: 300px; 
-}*/
-
-
-
-.navbar .navbar-expand-lg .navbar-light .fondonav {
-  background-color:  #eaae00;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: auto;
   width: 100%;
   position: fixed;
 }
 
-
-.navbar-brand img{
-  height: 75px;
+.logo_company{
+  height: 65px;
   width: 100px;
-  margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 10px;
+  margin-left: 20PX;
+  margin-right: 100px;
+  border-radius: 75%;
 }
 
-.menu{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: red;
-}
-
-.menuitem{
+.paginas{
   color:$colormenu;
   text-decoration: none;
   margin-right: 60px;
@@ -49,4 +27,38 @@ header{
   text-decoration: underline;
   font-size: 29px;
   transition: 0.5s;
+}
+
+@media (max-width: 860px){
+
+.fondonav{
+  background-color: $fondoprincipal ;
+  height: 100px;
+  width: 100%;
+  /*position: fixed;*/
+}
+
+.logo_company{
+  height: 65px;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-left: 20PX;
+  margin-right: 100px;
+  border-radius: 75%;
+}
+
+.paginas{
+  color:$colormenu;
+  text-decoration: none;
+  margin-right: 60px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.paginas:hover {
+  text-decoration: underline;
+  font-size: 29px;
+  transition: 0.5s;
+}
+
 }

@@ -1,8 +1,95 @@
+/*----------------*/
+
+.contactanos__principal{
+  background: linear-gradient(#FEFEFE,  #eaae00)
+}
+
+h2{
+  font-size: 3em;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+form{
+  display: block ;
+  align-items: center;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 20px 0 0 100px;
+}
+
+.input-padron{
+  display: block;
+  margin: 0 0  0 100px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.horario{
+  margin-top: 5px;
+  margin-left: 100px;
+  margin-bottom: 5px;
+}
+
+.checkbox{
+  margin-left: 100px;
+
+}
+
+label{
+  margin-left: 50px;
+}
+
+
+.enviar{
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 150px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  border: white solid;
+  padding: 16px 30px 16px 0px;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor:pointer;
+}
+
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+table{
+  margin:40px 40px 0px 400px;
+  padding-bottom: 10px;
+  background-color: #ffc400;
+  background: #fdfdfd;
+  text-align: center;
+}
+
+thead{
+  background: #555555;
+  color:white;
+  font-weight: bold;
+}
+
+td,th{
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
+
 /*inicia pagina contacto*/
 
 /*RESPONSIVE CONTACTO* pagina*/
 
-@media  only screen and (min-width: 860px){
+@media (max-width: 860px){
+
   .contactanos__principal { 
   background: linear-gradient(#FEFEFE,  #eaae00)
   }
@@ -19,49 +106,57 @@ h2{
 }
 
 form{
-  margin: 130px 0 0 300px;
-  display: flex;
+  display: block;
+  align-items: center;
 }
 
-form label, form legend{
+form label{
+ display: block;
+  font-size: 20px;
+  margin: 5px 0 0 100px;
+  font-weight: bold;
+}
+
+form legend{
   display: block;
   font-size: 20px;
-  margin: 0 0 10px;
+  margin: 5px 0 0 0px;
   font-weight: bold;
 }
 
 .input-padron{
   display: block;
-  margin: 0 0 20px;
-  padding: 10px 25px;
+  margin-top: 5px;
+  padding: 10px 25px 0 0;
   width: 50%;
   
 }
 
-.checkbox{
-  margin:20px 0;
+.horario{
+  margin-top: 5px;
+  margin-left: 100px;
+  margin-bottom: 5px;
 }
 
 .enviar{
-  width: 40%;
-  padding: 15px 0;
-  font-size: 18px;
-  font-weight: bold;
-  color:white;
-  background: orange;
-  border:none;
-  border-radius: 5px;
-  transition: 1s all;
-  cursor:pointer;
+  width: auto;
+  background-color: white;
+  border: #00bfcb 3px solid;
+  margin-left: 100px;
+  padding: 10px 10px 10px 2px;
+
 }
 
 .enviar:hover{
   background: darkorange;
   transform: scale(1.2);
+  background: #fdfdfd;
+  text-align: center;
 }
 
 table{
-  margin:40px 40px 10px 400px;
+  width: 100px;
+  margin:auto;
   background-color: #ffc400;
   background: #fdfdfd;
   text-align: center;
@@ -80,71 +175,3 @@ td,th{
 
 }
 
-.contactanos__principal{
-  background: linear-gradient(#FEFEFE,  #eaae00)
-}
-
-h2{
-  font-size: 3em;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 40px;
-}
-
-form{
-  margin: 100px 0 0 400px;
-  display: block 
-}
-
-form label, form legend{
-  display: block;
-  font-size: 20px;
-  margin: 0 0 10px;
-}
-
-.input-padron{
-  display: block;
-  margin: 0 0 20px;
-  padding: 10px 25px;
-  width: 50%;
-}
-
-.checkbox{
-  margin:20px 0;
-}
-
-.enviar{
-  width: 40%;
-  padding: 15px 0;
-  font-size: 18px;
-  font-weight: bold;
-  color:white;
-  background: orange;
-  border:none;
-  border-radius: 5px;
-  transition: 1s all;
-  cursor:pointer;
-}
-
-.enviar:hover{
-  background: darkorange;
-  transform: scale(1.2);
-}
-
-table{
-  margin:40px 40px 10px 570px;
-  background-color: #ffc400;
-  background: #fdfdfd;
-  text-align: center;
-}
-
-thead{
-  background: #555555;
-  color:white;
-  font-weight: bold;
-}
-
-td,th{
-  border: 1px solid #000000;
-  padding: 8px 15px;
-}
