@@ -49,8 +49,9 @@
 
 .video{
   width: 560px;
-  margin: 1em auto;
+  margin: auto;
 }
+
 
 @media (max-width: 860px){
   .diferenciales_section_servicios{
@@ -101,8 +102,13 @@
   }
   
   .video{
-    width: 200px;
-    margin: 1em auto;
+    width: 250px;
+    margin:10px 5px 5px 80px;
+  }
+
+  iframe{
+  
+    width: 280px;
   }
 
 }
